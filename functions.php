@@ -9,7 +9,7 @@
  *
  * VITE & Tailwind JIT development
  * Inspired by https://github.com/andrefelipe/vite-php-setup
- * v0.0.2
+ * v0.1
  *
  */
 

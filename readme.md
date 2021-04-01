@@ -1,11 +1,12 @@
-# Vite & Tailwind+JIT - Wordpress Theme rapid development
+# Vite & Tailwind+JIT - demo Wordpress Theme for rapid development
 
 Fastest Wordpress Theme development you have ever seen. Auto generating CSS, auto refresh on every file save and easy production build tool with no hassle.
+Inspired by https://github.com/vitejs/vite/issues/341
 
 ## Installation
 
 Unpack and copy folder to your /wp-content/themes/ folder, or install theme via wp-admin by uploading .zip file and activate Demo theme.
-Then run cd to theme folder and run **npm install**. Node is requred.
+Then CD (change directory) to theme folder and run **npm install**. Node is requred.
 
 ```bash
 npm install

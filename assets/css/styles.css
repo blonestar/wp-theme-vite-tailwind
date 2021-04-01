@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+/*
+ * uncomment if adding custom base styles
+@import "./custom-base-styles.css";
+*/
+
+@import "tailwindcss/components";
+/*
+ * uncomment if adding custom commponents
+@import "./custom-components.css";
+*/
+
+@import "tailwindcss/utilities";
+/*
+ * uncomment if adding custom utilities
+@import "./custom-utilities.css";
+*/
+

@@ -1,0 +1,22 @@
+{
+  "name": "vite-tailwind-jit-boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-nested": "^5.0.5",
+    "vue": "^3.0.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.17",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.0.4",
+    "vite": "^2.0.3",
+    "vite-plugin-live-reload": "^2.0.0"
+  }
+}

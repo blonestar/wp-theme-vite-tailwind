@@ -40,6 +40,7 @@ Ensure **define("IS_VITE_DEVELOPMENT", true);** exists in your **wp-config.php**
 ```bash
 npm run dev
 ```
+After Vite dev server is started open your installed Wordpress website in any browser or refresh it. Then you can start editing index.php, or any other php file in your theme, by adding elements and Tailwind classes. After saving changes your browser page eg your site should refresh immediately. You can freely edit asset files like styles.css, scripts.js too.
 
 ## Production build
 
@@ -48,6 +49,8 @@ Just run **npm run build**, set **define("IS_VITE_DEVELOPMENT", false);** and re
 ```bash
 npm run build
 ```
+Wordpress should load now generated files.
+
 ## Customizations
 
 More info on the links below

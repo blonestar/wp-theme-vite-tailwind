@@ -14,7 +14,7 @@ npm install
 
 ## Setup
 
-File **main.js** is where you include all your scripts and styles.
+Entry point file **main.js** is where you include all your scripts and styles. It can be changed via **vite.config.json** and **functions.php**.
 
 ```bash
 # get styles

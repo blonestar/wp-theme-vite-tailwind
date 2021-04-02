@@ -49,7 +49,7 @@ Just run **npm run build**, set **define("IS_VITE_DEVELOPMENT", false);** and re
 ```bash
 npm run build
 ```
-Wordpress should load now generated files.
+Wordpress should load now production generated assets.
 
 ## Customizations
 

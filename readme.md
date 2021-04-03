@@ -3,6 +3,8 @@
 Fastest Wordpress Theme development you have ever seen. Auto generating CSS, auto refresh on every file save and easy production build tool with no hassle.
 Inspired by https://github.com/vitejs/vite/issues/341
 
+Note: Tailwind JIT is currently experimental and it will be integrated into Tailwind soon, will update the theme accordinaly.
+
 
 ## Installation
 

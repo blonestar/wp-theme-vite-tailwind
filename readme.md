@@ -50,7 +50,7 @@ After Vite dev server is started open your installed Wordpress website in any br
 
 ## Production build
 
-Just run **npm run build**, set **define("IS_VITE_DEVELOPMENT", false);** and refresh local website.
+Just run **npm run build**, set defined **IS_VITE_DEVELOPMENT** to **false** and refresh local website.
 
 ```bash
 npm run build

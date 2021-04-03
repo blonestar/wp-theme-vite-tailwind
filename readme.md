@@ -1,4 +1,4 @@
-# Vite & Tailwind+JIT - demo Wordpress Theme for rapid development
+# Vite + Tailwind JIT - demo Wordpress Theme for rapid development
 
 Fastest Wordpress Theme development you have ever seen. Auto generating CSS, auto refresh on every file save and easy production build tool with no hassle.
 Inspired by https://github.com/vitejs/vite/issues/341
@@ -14,7 +14,7 @@ npm install
 
 ## Setup
 
-File **main.js** is where you include all your scripts and styles.
+Entry point file **main.js** is where you include all your scripts and styles. It can be changed via **vite.config.json** and **functions.php**.
 
 ```bash
 # get styles
@@ -40,6 +40,7 @@ Ensure **define("IS_VITE_DEVELOPMENT", true);** exists in your **wp-config.php**
 ```bash
 npm run dev
 ```
+After Vite dev server is started open your installed Wordpress website in any browser or refresh it. Then you can start editing index.php, or any other php file in your theme, by adding elements and Tailwind classes. After saving changes your browser page eg your site should refresh immediately. You can freely edit asset files like styles.css, scripts.js too.
 
 ## Production build
 
@@ -48,6 +49,8 @@ Just run **npm run build**, set **define("IS_VITE_DEVELOPMENT", false);** and re
 ```bash
 npm run build
 ```
+Wordpress should load now production generated assets.
+
 ## Customizations
 
 More info on the links below

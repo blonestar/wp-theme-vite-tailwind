@@ -28,7 +28,7 @@ import "./assets/css/styles.css"
 import "./assets/js/scripts.js"
 ```
 
-Your CSS file should include tailwind base files.
+Your CSS file should include tailwind base files, like in this example.
 
 ```bash
 # styles.css
@@ -68,7 +68,7 @@ More info on the links below
 - https://github.com/tailwindlabs/tailwindcss-jit
 
 Visual Studio Code Tailwind Intellisense plugin is a must.
-    https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
 
 ---
 That's it.

@@ -3,6 +3,7 @@
 Fastest Wordpress Theme development you have ever seen. Auto generating CSS, auto refresh on every file save and easy production build tool with no hassle.
 Inspired by https://github.com/vitejs/vite/issues/341
 
+
 ## Installation
 
 Unpack and copy folder to your /wp-content/themes/ folder, or install theme via wp-admin by uploading .zip file and activate Demo theme.
@@ -11,6 +12,7 @@ Then CD (change directory) to theme folder and run **npm install**. Node is requ
 ```bash
 npm install
 ```
+
 
 ## Setup
 
@@ -33,6 +35,7 @@ Your CSS file should include tailwind base files.
 @tailwind utilities;
 ```
 
+
 ## Development with live preview/refresh
 
 Ensure **define("IS_VITE_DEVELOPMENT", true);** exists in your **wp-config.php** or theme/plugin **functions.php**. Just run **npm run dev** and refresh your development website.
@@ -41,6 +44,7 @@ Ensure **define("IS_VITE_DEVELOPMENT", true);** exists in your **wp-config.php**
 npm run dev
 ```
 After Vite dev server is started open your installed Wordpress website in any browser or refresh it. Then you can start editing index.php, or any other php file in your theme, by adding elements and Tailwind classes. After saving changes your browser page eg your site should refresh immediately. You can freely edit asset files like styles.css, scripts.js too.
+
 
 ## Production build
 

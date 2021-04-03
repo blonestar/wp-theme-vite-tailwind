@@ -49,7 +49,10 @@ Just run **npm run build**, set **define("IS_VITE_DEVELOPMENT", false);** and re
 ```bash
 npm run build
 ```
-Wordpress should load now production generated assets.
+Refresh your development site, Wordpress should load now production generated assets.
+
+Note: To ensure class or classes are built in just add them to safelist.txt and run build again.
+
 
 ## Customizations
 

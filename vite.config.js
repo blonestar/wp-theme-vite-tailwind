@@ -41,16 +41,16 @@ export default {
     // our entry
     rollupOptions: {
       input: '/main.js',
-      /*
+      
       output: {
           entryFileNames: `[name].js`,
           chunkFileNames: `[name].js`,
           assetFileNames: `[name].[ext]`
-      }*/
+      }
     },
 
     // minifying switch
-    minify: false,
+    minify: true,
     write: true
   },
 

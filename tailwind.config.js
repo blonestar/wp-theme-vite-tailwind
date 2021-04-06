@@ -1,16 +1,16 @@
 module.exports = {
-    purge: [
-      '../**/*.php',
-      'safelist.txt',
-      //'../**/*.vue',
-    ],
-    darkMode: false, // or 'media' or 'class'
-    theme: {
-      extend: {},
-    },
-    variants: {
-      extend: {},
-    },
-    plugins: [
-    ]
-  } 
+  mode: 'jit',
+  purge: [
+    '../**/*.php',
+    'safelist.txt',
+    //'../**/*.vue',
+  ],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: []
+} 

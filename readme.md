@@ -9,8 +9,8 @@ Inspired by https://github.com/vitejs/vite/issues/341
 
 ## Installation
 
-Unpack and copy folder to your /wp-content/themes/ folder, or install theme via wp-admin by uploading .zip file and activate Demo theme.
-Then CD (change directory) to theme folder and run **npm install**. Node is requred.
+Unpack and copy folder to your Wordpress installation /wp-content/themes/ folder, or install theme via wp-admin by uploading .zip file and activate the theme.
+Then from your console or command prompt go to the theme folder and run **npm install**. Note: NodeJS is requred.
 
 ```bash
 npm install

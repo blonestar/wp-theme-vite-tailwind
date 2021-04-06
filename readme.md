@@ -1,4 +1,4 @@
-# Vite + Tailwind JIT - demo Wordpress Theme for rapid development
+# Vite + Tailwind/JIT - demo Wordpress Theme for rapid development
 
 Fastest Wordpress Theme development you have ever seen. Auto generating CSS, auto refresh on every file save and easy production build tool with no hassle.
 Inspired by https://github.com/vitejs/vite/issues/341
@@ -74,3 +74,16 @@ https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
 That's it.
 
 Happy coding! :)
+
+---
+## Changes
+
+## v0.2.1
+- TailwindCSS updated to 2.1.1 (JIT is included in this version)
+- experimental @tailwindcss/jit removed
+- functions.php cleanup
+- tailwind.config.js, mode 'JIT' added (v2.1.1)
+- postcss.config.js updated
+
+## v0.1.0
+- initial release

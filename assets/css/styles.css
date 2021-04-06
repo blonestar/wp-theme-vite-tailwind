@@ -16,3 +16,8 @@
 @import "./custom-utilities.css";
 */
 
+
+/* admin bar fix */
+body.admin-bar {
+    max-height: calc(100vh - 32px);
+}

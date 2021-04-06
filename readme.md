@@ -5,7 +5,7 @@ Inspired by https://github.com/vitejs/vite/issues/341
 
 <img src="assets/img/hello-world.jpg" width="100%">
 
-*Note: Tailwind JIT is currently experimental and it will be integrated into Tailwind soon, will update the theme accordinaly*
+*Note: Tailwind JIT is currently experimental and it is already integrated into included latest Tailwindcss (since v2.1.1)*
 
 ## Installation
 

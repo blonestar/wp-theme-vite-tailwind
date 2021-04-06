@@ -1,4 +1,4 @@
-# Vite + Tailwind/JIT - demo Wordpress Theme for rapid development
+# Vite + Tailwind CSS JIT - demo Wordpress Theme for rapid development
 
 Fastest Wordpress Theme development you have ever seen. Auto generating CSS, auto refresh on every file save and easy production build tool with no hassle.
 Inspired by https://github.com/vitejs/vite/issues/341

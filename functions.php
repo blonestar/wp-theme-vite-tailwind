@@ -1,7 +1,6 @@
 <?php
 
-// funtions.php is empty
-// just VITE live refresh and enqueue styles & scripts for easy understanding
+// funtions.php is empty so you can easily track what code is needed in order to Vite + Tailwind JIT run well
 
 
 
@@ -9,24 +8,30 @@
  *
  * VITE & Tailwind JIT development
  * Inspired by https://github.com/andrefelipe/vite-php-setup
- * v0.1
+ * v0.2.1
  *
  */
 
-// Some dev/prod mechanism would exist in your project
-// Handling manualy here, change to test both cases
+// Main switch to get fontend assets from a Vite dev server or from production built folder
+// it is recommeded to move the define into wp-config.php
 define('IS_VITE_DEVELOPMENT', true);
+
+// dist subfolder - defined in vite.config.json
 define('DIST_DEF', 'dist');
 
-// deine some base urls and paths
+// defining some base urls and paths
 define('DIST_URI', get_template_directory_uri() . '/' . DIST_DEF);
 define('DIST_PATH', get_template_directory() . '/' . DIST_DEF);
 
 // js enqueue settings
-define('JS_DEPENDENCY', array()); // 'jquery' as example
-define('JS_LOAD_IN_FOOTER', true);
+define('JS_DEPENDENCY', array()); // array('jquery') as example
+define('JS_LOAD_IN_FOOTER', true); // load scripts in footer?
 
+// server address, port and entry point can be custmized from vite.config.json
+define('VITE_SERVER', 'http://localhost:3000');
+define('VITE_ENTRY_POINT', '/main.js');
 
+// enqueue hook
 function enqueue_scripts_and_styles() {
     
     
@@ -36,9 +41,7 @@ function enqueue_scripts_and_styles() {
         // ----------
 
         function vite_head_module_hook() {
-            ?>
-            <script type="module" crossorigin src="http://localhost:3000/main.js"></script>
-            <?php
+            echo '<script type="module" crossorigin src="' . VITE_SERVER . VITE_ENTRY_POINT . '"></script>';
         }
         add_action('wp_head', 'vite_head_module_hook');        
 

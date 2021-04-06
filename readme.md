@@ -5,8 +5,7 @@ Inspired by https://github.com/vitejs/vite/issues/341
 
 <img src="assets/img/hello-world.jpg" width="100%">
 
-Note: Tailwind JIT is currently experimental and it will be integrated into Tailwind soon, will update the theme accordinaly.
-
+*Note: Tailwind JIT is currently experimental and it will be integrated into Tailwind soon, will update the theme accordinaly*
 
 ## Installation
 
@@ -80,12 +79,12 @@ Happy coding! :)
 ---
 ## Changes
 
-## v0.2.1
+### v0.2.1
 - TailwindCSS updated to 2.1.1 (JIT is included in this version)
 - experimental @tailwindcss/jit removed
 - functions.php cleanup
 - tailwind.config.js, mode 'JIT' added (v2.1.1)
 - postcss.config.js updated
 
-## v0.1.0
+### v0.1.0
 - initial release

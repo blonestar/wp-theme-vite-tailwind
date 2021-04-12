@@ -79,6 +79,11 @@ Happy coding! :)
 ---
 ## Changes
 
+### v0.2.2
+- small workaround added in order to Tailwindcss Intellisense to work
+- postcss package updated to v8.2.10
+- index.php splited into header.php & footer.php
+- example page.php template with responsive container added
 ### v0.2.1
 - TailwindCSS updated to 2.1.1 (JIT is included in this version)
 - experimental @tailwindcss/jit removed

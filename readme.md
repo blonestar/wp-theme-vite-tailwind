@@ -29,16 +29,6 @@ import "./assets/css/styles.css"
 import "./assets/js/scripts.js"
 ```
 
-Your CSS file should include tailwind base files, like in this example.
-
-```bash
-# styles.css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-
 ## Development with live preview/refresh
 
 Ensure **define("IS_VITE_DEVELOPMENT", true);** exists in your **wp-config.php** or theme/plugin **functions.php**. Just run **npm run dev** and refresh your development website.
@@ -47,6 +37,11 @@ Ensure **define("IS_VITE_DEVELOPMENT", true);** exists in your **wp-config.php**
 npm run dev
 ```
 After Vite dev server is started open your installed Wordpress website in any browser or refresh it. Then you can start editing index.php, or any other php file in your theme, by adding elements and Tailwind classes. After saving changes your browser page eg your site should refresh immediately. You can freely edit asset files like styles.css, scripts.js too.
+
+### Note for httpS serving
+If your local development domain is served via **https** then some changes in confing are required
+- enable server.https option in **vite.config.js**
+- change VITE_SERVER to http**s** in your **functions.php**
 
 
 ## Production build
@@ -78,6 +73,9 @@ Happy coding! :)
 
 ---
 ## Changes
+
+### v0.2.4
+- https fix
 
 ### v0.2.3
 - Vite updated to v2.2.4

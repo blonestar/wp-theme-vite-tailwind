@@ -90,6 +90,7 @@ Happy coding! :)
 
 ### v0.2.4
 - https solution added
+- 404.php template file added
 
 ### v0.2.3
 - Vite updated to v2.2.4

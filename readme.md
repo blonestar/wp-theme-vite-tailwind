@@ -79,6 +79,12 @@ Happy coding! :)
 ---
 ## Changes
 
+### v0.2.3
+- Vite updated to v2.2.4
+- PostCSS updated to v8.2.13
+- Tailwindcss updated to v2.1.2
+- https option included into server vite.config.js
+
 ### v0.2.2
 - small workaround added in order Tailwindcss Intellisense to work
 - postcss package updated to v8.2.10

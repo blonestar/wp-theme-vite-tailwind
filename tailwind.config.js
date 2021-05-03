@@ -1,11 +1,5 @@
-// a small workaround in order to get VS Code Tailwincss intellisense to work
-let mode;
-if (process.env.NODE_ENV != '') {
-  mode = 'jit';
-}
-
 module.exports = {
-  mode,
+  mode: 'jit',
   purge: [
     '../**/*.php',
     'safelist.txt',

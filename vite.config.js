@@ -61,7 +61,12 @@ export default {
     // we need a strict port to match on PHP side
     // change freely, but update on PHP to match the same port
     strictPort: true,
-    port: 3000
+
+    // port
+    port: 3000,
+
+    // serve over http or https
+    https: true
   },
 
   // required for in-browser template compilation

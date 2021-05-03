@@ -75,7 +75,7 @@ export default {
     // installation example on Windows 10:
     // > choco install mkcert (this will install mkcert)
     // > mkcert -install (global one time install)
-    // > mkcert localhost (in project folder and files localhost-key.pem & localhost.pem will be created)
+    // > mkcert localhost (in project folder files localhost-key.pem & localhost.pem will be created)
     // uncomment below to enable https
     //https: {
     //  key: fs.readFileSync('localhost-key.pem'),

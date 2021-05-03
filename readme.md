@@ -39,7 +39,12 @@ npm run dev
 After Vite dev server is started open your installed Wordpress website in any browser or refresh it. Then you can start editing index.php, or any other php file in your theme, by adding elements and Tailwind classes. After saving changes your browser page eg your site should refresh immediately. You can freely edit asset files like styles.css, scripts.js too.
 
 ### Note for httpS serving
-If your local development domain is served via **https** then some changes in confing are required
+If your local development domain is served via **https** then generating certificate for localhost usage and some changes in confing are required
+- istall mkcert and follow the instructions how to generate & install certificate https://github.com/FiloSottile/mkcert
+    - example on Windows 10
+        - > **choco install mkcert** *(this will install mkcert)*
+        - > **mkcert -install** *(global one time install)*
+        - > **mkcert localhost** *(in project/theme folder files localhost-key.pem & localhost.pem will be created)*
 - enable server.https option in **vite.config.js**
 - change VITE_SERVER to http**s** in your **functions.php**
 
@@ -75,7 +80,7 @@ Happy coding! :)
 ## Changes
 
 ### v0.2.4
-- https fix
+- https solution added
 
 ### v0.2.3
 - Vite updated to v2.2.4

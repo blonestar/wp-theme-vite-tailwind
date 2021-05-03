@@ -66,7 +66,7 @@ export default {
     port: 3000,
 
     // serve over http or https
-    https: true
+    https: false
   },
 
   // required for in-browser template compilation

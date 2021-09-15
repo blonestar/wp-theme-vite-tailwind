@@ -5,15 +5,24 @@ Inspired by https://github.com/vitejs/vite/issues/341
 
 <img src="assets/img/hello-world.jpg" width="100%">
 
-*Note: Tailwind JIT is currently experimental and it is already integrated into included latest Tailwindcss (since v2.1.1)*
 
 ## Installation
 
 Unpack and copy folder to your Wordpress installation /wp-content/themes/ folder, or install theme via wp-admin by uploading .zip file and activate the theme.
 Then from your console or command prompt go to the theme folder and run **npm install**. Note: NodeJS is requred.
 
+Installation (Node.js installed required):
 ```bash
 npm install
+```
+
+Quick commands:
+```bash
+# dev server start
+npm run dev
+
+# production build
+npm run build
 ```
 
 
@@ -87,6 +96,14 @@ Happy coding! :)
 
 ---
 ## Changes
+
+### v0.2.6
+- Tailwind updated to 2.2.15
+- Vite updated to v2.5.7
+- Autoprefixer updated to 10.3.4
+- PostCSS updated to v8.3.6
+- PostCSS-Nested updated to 5.0.6
+- IS_VITE_DEVELOPMENT check fix
 
 ### v0.2.5
 - PostCSS updated to v8.2.14

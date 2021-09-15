@@ -35,7 +35,7 @@ define('VITE_ENTRY_POINT', '/main.js');
 function enqueue_scripts_and_styles() {
     
     
-    if (@IS_VITE_DEVELOPMENT) {
+    if (defined('IS_VITE_DEVELOPMENT') && IS_VITE_DEVELOPMENT === true) {
 
         // 'npm run dev' running
         // ----------

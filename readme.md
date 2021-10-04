@@ -6,6 +6,15 @@ Inspired by https://github.com/vitejs/vite/issues/341
 <img src="assets/img/hello-world.jpg" width="100%">
 
 
+## Main features
+
+- really fast Auto browser refresh on any (php or CSS) file change/save
+- integrated Tailwind CSS Just-in-time compiler
+- extremely small CSS
+- keep your local domain while developing
+- `npm run build` for easy packing Javascript and CSS
+
+
 ## Installation
 
 Unpack and copy folder to your Wordpress installation /wp-content/themes/ folder, or install theme via wp-admin by uploading .zip file and activate the theme.

@@ -8,12 +8,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^10.3.4",
+    "autoprefixer": "^10.3.6",
     "cross-env": "^7.0.3",
-    "postcss": "^8.3.6",
+    "postcss": "^8.3.8",
     "postcss-nested": "^5.0.6",
-    "tailwindcss": "^2.2.15",
-    "vite": "^2.5.7",
+    "tailwindcss": "^2.2.16",
+    "vite": "^2.6.2",
     "vite-plugin-live-reload": "^2.1.0"
   }
 }

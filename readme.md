@@ -97,6 +97,12 @@ Happy coding! :)
 ---
 ## Changes
 
+### v0.2.7
+- Tailwind updated to 2.2.16
+- PostCSS updated to v8.3.8
+- Autoprefixer updated to 10.3.6
+- Vite updated to v2.6.2
+
 ### v0.2.6
 - Tailwind updated to 2.2.15
 - Vite updated to v2.5.7

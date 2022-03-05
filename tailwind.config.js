@@ -1,16 +1,16 @@
 module.exports = {
-  mode: 'jit',
-  purge: [
-    '../**/*.php',
-    'safelist.txt',
-    //'../**/*.vue',
+  content: [
+    '../**/*.php'
+    //'../**/*.vue'
   ],
-  darkMode: false, // or 'media' or 'class'
+  safelist: [
+    'text-center'
+    //{
+    //  pattern: /text-(white|black)-(200|500|800)/
+    //}
+  ],
   theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
+    extend: {}
   },
   plugins: []
 }

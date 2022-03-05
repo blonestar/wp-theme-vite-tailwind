@@ -5,9 +5,15 @@ Inspired by https://github.com/vitejs/vite/issues/341
 
 <img src="assets/img/hello-world.jpg" width="100%">
 
-*Note: Tailwind JIT is currently experimental and it is already integrated into included latest Tailwindcss (since v2.1.1)*
+## Main features
 
-## Installation
+- really fast Auto browser refresh on any (php or CSS) file change/save
+- integrated Tailwind CSS Just-in-time compiler
+- extremely small CSS
+- keep your local domain while developing
+- `npm run build` for easy packing Javascript and CSS
+
+## Installation (Node.js/npm required):
 
 Unpack and copy folder to your Wordpress installation /wp-content/themes/ folder, or install theme via wp-admin by uploading .zip file and activate the theme.
 Then from your console or command prompt go to the theme folder and run **npm install**. Note: NodeJS is requred.
@@ -16,6 +22,14 @@ Then from your console or command prompt go to the theme folder and run **npm in
 npm install
 ```
 
+Quick commands:
+```bash
+# dev server start
+npm run dev
+
+# production build
+npm run build
+```
 
 ## Setup
 
@@ -86,7 +100,30 @@ That's it.
 Happy coding! :)
 
 ---
-## Changes
+## Change log
+
+### v0.3.0
+Packages updates:
+- autoprefixer     ^10.2.5   →   ^10.4.2
+- postcss          ^8.2.14   →    ^8.4.7
+- postcss-nested    ^5.0.5   →    ^5.0.6
+- tailwindcss       ^2.1.2   →   ^3.0.23
+- vite              ^2.2.4   →    ^2.8.6
+- Tailwindcss 3 config fixes
+
+### v0.2.7
+- Tailwind updated to 2.2.16
+- PostCSS updated to v8.3.8
+- Autoprefixer updated to 10.3.6
+- Vite updated to v2.6.2
+
+### v0.2.6
+- Tailwind updated to 2.2.15
+- Vite updated to v2.5.7
+- Autoprefixer updated to 10.3.4
+- PostCSS updated to v8.3.6
+- PostCSS-Nested updated to 5.0.6
+- IS_VITE_DEVELOPMENT check fix
 
 ### v0.2.5
 - PostCSS updated to v8.2.14

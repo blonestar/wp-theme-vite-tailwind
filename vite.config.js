@@ -83,8 +83,8 @@ export default {
     //},
 
     hmr: {
-      //host: 'localhost',
-      port: 443
+      host: 'localhost',
+      //port: 443
     },
     
   },

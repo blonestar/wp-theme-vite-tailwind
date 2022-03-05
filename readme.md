@@ -1,4 +1,4 @@
-# Wordpress + Vite + TailwindCSS & demo Wordpress Theme
+# Wordpress + Vite + TailwindCSS & demo Theme
 
 Example of using Vite + TailwindCSS in Wordpress Theme development. Auto generating CSS, auto refresh on every file save/edit and easy production build tool with no hassle.
 Inspired by https://github.com/vitejs/vite/issues/341

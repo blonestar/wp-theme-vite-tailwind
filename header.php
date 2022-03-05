@@ -7,3 +7,5 @@
     <?php wp_head() ?>
 </head>
 <body <?php body_class('h-screen border') ?>>
+<?php wp_body_open(); ?>
+

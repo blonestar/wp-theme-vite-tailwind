@@ -7,15 +7,15 @@ Inspired by https://github.com/vitejs/vite/issues/341
 
 ## Main features
 
-- really fast Auto browser refresh on any (php or CSS) file change/save
-- integrated Tailwind CSS Just-in-time compiler
-- extremely small CSS
+- fast Auto browser refresh/sync file change/save
+- integrated Tailwind CSS Just-in-time compiler (v3)
+- extremely small CSS as there is no unsued css at all
 - keep your local domain while developing
-- `npm run build` for easy packing Javascript and CSS
+- `npm run build` for production packing Javascript and CSS
 
 ## Installation (Node.js/npm required):
 
-Unpack and copy folder to your Wordpress installation /wp-content/themes/ folder, or install theme via wp-admin by uploading .zip file and activate the theme.
+Clone or Unpack and copy folder to your Wordpress installation /wp-content/themes/ folder, or install theme via wp-admin by uploading .zip file and activate the theme.
 Then from your console or command prompt go to the theme folder and run **npm install**. Note: NodeJS is requred.
 
 ```bash

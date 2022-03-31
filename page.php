@@ -1,12 +1,12 @@
 <?php get_header() ?>
 
-    <div class="w-full 2xl:container mx-auto mt-0 2xl:mt-5 p-4 border-0 2xl:border transition-all">
+    <article class="max-w-screen-lg mx-auto ">
 
         <h1 class="text-3xl font-semibold"><?php the_title() ?></h1>
         <div class="mt-4">
             <?php the_content() ?>
         </div>
 
-    </div>
+    </article>
 
 <?php get_footer() ?>

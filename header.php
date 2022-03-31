@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head() ?>
 </head>
-<body <?php body_class('h-screen border') ?>>
+<body <?php body_class('flex flex-col h-screen') ?>>
 <?php wp_body_open(); ?>
+
+    <header class="flex-0 bg-slate-100 shadow-md px-4 test-class border">
+        <div class="max-w-screen-lg mx-auto flex justify-between items-center min-h-[40px]">
+            <div class="">
+                <a href="<?php echo home_url() ?>">Logo</a>
+            </div>
+            <div>
+                <?php echo wp_nav_menu() ?>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow px-4 py-4">
 

@@ -8,7 +8,7 @@ Inspired by https://github.com/vitejs/vite/issues/341
 ## Main features
 
 - fast Auto browser refresh/sync file change/save
-- integrated Tailwind CSS Just-in-time compiler (v3)
+- built in Tailwindcss Just-in-time compiler
 - extremely small CSS as there is no unsued css at all
 - keep your local domain while developing
 - `npm run build` for production packing Javascript and CSS

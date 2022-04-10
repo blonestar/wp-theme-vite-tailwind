@@ -52,6 +52,19 @@ npm run dev
 ```
 After Vite dev server is started open your installed Wordpress website in any browser or refresh it. Then you can start editing index.php, or any other php file in your theme, by adding elements and Tailwind classes. After saving changes your browser page eg your site should refresh immediately. You can freely edit asset files like styles.css, scripts.js too.
 
+
+## Production build
+
+Just run **npm run build**, set defined **IS_VITE_DEVELOPMENT** to **false** and refresh local website.
+
+```bash
+npm run build
+```
+Wordpress should load now production generated assets.
+
+Note: To ensure classes used inside CMS to be processed just add them to safelist.txt and run build again.
+
+
 ## Sass / Less
 
 CSS Pre-processors are also supported by ViteJS
@@ -66,18 +79,6 @@ npm add -D less
 
 Please check link for details.
 https://vitejs.dev/guide/features#css-pre-processors
-
-
-## Production build
-
-Just run **npm run build**, set defined **IS_VITE_DEVELOPMENT** to **false** and refresh local website.
-
-```bash
-npm run build
-```
-Wordpress should load now production generated assets.
-
-Note: To ensure classes used inside CMS to be processed just add them to safelist.txt and run build again.
 
 
 ## Note for httpS serving

@@ -121,22 +121,22 @@ Happy coding! :)
 ## Change log
 
 ### v0.3.2
-Refresh speed improved (file search pattern fixed in tailwind.config.js)
-Package name changed
-Vite script loading logic moved to inc/inc.vite.php
-Homepage updated
-Hashed assets filenames on build, force reload not needed
+- Refresh speed improved (file search pattern fixed in tailwind.config.js)
+- Package name changed
+- Vite script loading logic moved to inc/inc.vite.php
+- Homepage updated
+- Hashed assets filenames on build, force reload not needed
 
 ### v0.3.1
-Demo layout updated
-Hello World preview image replaced
-Package updates:
-- postcss           ^8.4.7   →   ^8.4.12
-- autoprefixer     ^10.4.2   →   ^10.4.4
-- vite              ^2.8.6   →   ^2.9.1
+- Demo layout updated
+- Hello World preview image replaced
+- Package updates:
+    - postcss           ^8.4.7   →   ^8.4.12
+    - autoprefixer     ^10.4.2   →   ^10.4.4
+    - vite              ^2.8.6   →   ^2.9.1
 
 ### v0.3.0
-Tailwindcss 3 config fixes
+- Tailwindcss 3 config fixes
 
 Packages updates:
 - autoprefixer     ^10.2.5   →   ^10.4.2

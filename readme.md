@@ -119,6 +119,13 @@ Happy coding! :)
 ---
 ## Change log
 
+### v0.3.2
+Refresh speed improved (file search pattern fixed in tailwind.config.js)
+Package name changed
+Vite script loading logic moved to inc/inc.vite.php
+Homepage updated
+Hashed assets filenames on build, force reload not needed
+
 ### v0.3.1
 Demo layout updated
 Hello World preview image replaced

@@ -1,10 +1,10 @@
 {
   "main.js": {
-    "file": "main.js",
+    "file": "assets/main.8b9fc216.js",
     "src": "main.js",
     "isEntry": true,
     "css": [
-      "main.css"
+      "assets/main.bc599f05.css"
     ]
   }
 }

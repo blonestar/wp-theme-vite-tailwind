@@ -120,6 +120,21 @@ Happy coding! :)
 ---
 ## Change log
 
+### v0.3.4
+- Package updates:
+  - autoprefixer              ^10.4.7   →   ^10.4.11 
+  - postcss                   ^8.4.14   →    ^8.4.16 
+  - tailwindcss               ^3.0.24   →     ^3.1.8 
+  - vite                       ^2.9.9   →     ^3.1.3 
+  - vite-plugin-live-reload    ^2.1.0   →     ^3.0.0
+
+### v0.3.3
+- Package updates:
+  - autoprefixer   ^10.4.4   →   ^10.4.**7**
+  - postcss        ^8.4.12   →   ^8.4.14
+  - tailwindcss    ^3.0.23   →   ^3.0.24
+  - vite            ^2.9.1   →    ^2.9.9
+
 ### v0.3.2
 - Refresh speed improved (file search pattern fixed in tailwind.config.js)
 - Package name changed

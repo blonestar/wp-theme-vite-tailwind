@@ -9,7 +9,7 @@
 <body <?php body_class('flex flex-col h-screen') ?>>
 <?php wp_body_open(); ?>
 
-    <header class="flex-0 bg-slate-100 shadow-md px-4 test-class border">
+    <header class="flex-0 bg-slate-100 px-4 border shadow-md">
         <div class="max-w-screen-lg mx-auto flex justify-between items-center min-h-[40px]">
             <div class="">
                 <a href="<?php echo home_url() ?>">Logo</a>

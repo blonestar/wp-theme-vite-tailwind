@@ -10,13 +10,14 @@
 // on production everything will work just fine
 
 //import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vite'
 import liveReload from 'vite-plugin-live-reload'
 const { resolve } = require('path')
 const fs = require('fs')
 
 
 // https://vitejs.dev/config
-export default {
+export default defineConfig({
 
   plugins: [
     //vue(),
@@ -99,5 +100,5 @@ export default {
       //vue: 'vue/dist/vue.esm-bundler.js'
     }
   }
-}
+})
 

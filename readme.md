@@ -120,6 +120,16 @@ Happy coding! :)
 ---
 ## Change log
 
+### v0.3.5
+- Package updates:
+  - autoprefixer              ^10.4.11   →   ^10.4.12
+  - postcss                    ^8.4.16   →    ^8.4.18
+  - postcss-nested              ^5.0.6   →     ^6.0.0
+  - vite                        ^3.1.3   →     ^3.1.8
+  - vite-plugin-live-reload     ^3.0.0   →     ^3.0.1
+- ABSPATH security check added
+- saflist.txt watch added
+
 ### v0.3.4
 - Package updates:
   - autoprefixer              ^10.4.7   →   ^10.4.11 

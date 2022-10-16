@@ -1,5 +1,9 @@
 <?php
 
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) )
+    exit;  
+
 // funtions.php is empty so you can easily track what code is needed in order to Vite + Tailwind JIT run well
 
 

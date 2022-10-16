@@ -1,4 +1,9 @@
 <?php
+
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) )
+    exit;  
+    
 /*
  * VITE & Tailwind JIT development
  * Inspired by https://github.com/andrefelipe/vite-php-setup

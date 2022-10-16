@@ -1,4 +1,5 @@
-console.log('main.js')
+// main entry point
+// include your assets here
 
 // get styles
 import "./assets/css/styles.css"

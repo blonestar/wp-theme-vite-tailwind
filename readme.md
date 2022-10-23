@@ -120,6 +120,10 @@ Happy coding! :)
 ---
 ## Change log
 
+### v0.3.6
+- Package updates:
+  - tailwindcss               ^3.1.8    →     ^3.2.1 
+
 ### v0.3.5
 - Package updates:
   - autoprefixer              ^10.4.11   →   ^10.4.12

@@ -11,7 +11,7 @@
     "cross-env": "^7.0.3",
     "postcss": "^8.4.18",
     "postcss-nested": "^6.0.0",
-    "tailwindcss": "^3.1.8",
+    "tailwindcss": "^3.2.1",
     "vite": "^3.1.8",
     "vite-plugin-live-reload": "^3.0.1"
   }

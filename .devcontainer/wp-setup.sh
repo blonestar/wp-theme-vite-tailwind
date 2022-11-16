@@ -28,7 +28,8 @@ if [ ! -f wp-config.php ]; then
     wp core install --url="http://localhost:8080" --title="$SITE_TITLE" --admin_user="$ADMIN_USER" --admin_email="$ADMIN_EMAIL" --admin_password="$ADMIN_PASS" --skip-email;
     wp plugin install $PLUGINS --activate
     #TODO: Only activate plugin if it contains files - i.e. might be developing a theme instead
-    wp plugin activate plugin-dev
+    #wp plugin activate plugin-dev
+    wp theme activate vite-tailwind-theme
 
     #Data import
     cd $DEVDIR/data/

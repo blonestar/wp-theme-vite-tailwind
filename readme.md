@@ -120,6 +120,13 @@ Happy coding! :)
 ---
 ## Change log
 
+### v0.4
+- Package updates:
+  - vite             ^3.1.8   →     ^4.0.1
+  - autoprefixer   ^10.4.12   →   ^10.4.13
+  - postcss         ^8.4.18   →    ^8.4.20
+  - tailwindcss      ^3.2.1   →     ^3.2.4
+
 ### v0.3.6
 - Package updates:
   - tailwindcss               ^3.1.8    →     ^3.2.1 

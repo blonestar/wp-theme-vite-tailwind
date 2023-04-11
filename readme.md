@@ -120,6 +120,15 @@ Happy coding! :)
 ---
 ## Change log
 
+### v0.4.1
+- Package updates:
+  - autoprefixer              ^10.4.13   →   ^10.4.14 
+  - postcss                    ^8.4.20   →    ^8.4.21 
+  - postcss-nested              ^6.0.0   →     ^6.0.1 
+  - tailwindcss                 ^3.2.4   →     ^3.3.1 
+  - vite                        ^4.0.1   →     ^4.2.1
+  - vite-plugin-live-reload     ^3.0.1   →     ^3.0.2
+
 ### v0.4
 - Package updates:
   - vite             ^3.1.8   →     ^4.0.1

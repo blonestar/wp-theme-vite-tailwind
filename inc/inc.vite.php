@@ -44,29 +44,26 @@ add_action( 'wp_enqueue_scripts', function() {
         // read manifest.json to figure out what to enqueue
         $manifest = json_decode( file_get_contents( DIST_PATH . '/manifest.json'), true );
         
-        // is ok
         if (is_array($manifest)) {
-            
-            // get first key, by default is 'main.js' but it can change
+            // Look for 'main.js' index
             $manifest_key = array_keys($manifest);
-            if (isset($manifest_key[0])) {
-                
-                // enqueue CSS files
-                foreach(@$manifest[$manifest_key[0]]['css'] as $css_file) {
-                    wp_enqueue_style( 'main', DIST_URI . '/' . $css_file );
-                }
-                
-                // enqueue main JS file
-                $js_file = @$manifest[$manifest_key[0]]['file'];
-                if ( ! empty($js_file)) {
-                    wp_enqueue_script( 'main', DIST_URI . '/' . $js_file, JS_DEPENDENCY, '', JS_LOAD_IN_FOOTER );
-                }
-                
-            }
+            $main_js_key = array_search('main.js', $manifest_key);
 
+            if (isset($manifest_key[$main_js_key])) {
+                // enqueue CSS files if there is any
+                if (isset($manifest[$manifest_key[$main_js_key]]['css'])) {
+                  foreach($manifest[$manifest_key[$main_js_key]]['css'] as $css_file) {
+                      wp_enqueue_style( 'main', DIST_URI . '/' . $css_file );
+                  }
+                }
+
+                // enqueue main JS file
+                if ( ! empty($manifest[$manifest_key[$main_js_key]]['file'])) {
+                    wp_enqueue_script( 'main', DIST_URI . '/' . $manifest[$manifest_key[$main_js_key]]['file'], JS_DEPENDENCY, '', JS_LOAD_IN_FOOTER );
+                }
+            }
         }
 
     }
-
 
 });

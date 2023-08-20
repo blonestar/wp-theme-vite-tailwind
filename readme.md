@@ -98,7 +98,7 @@ mkcert localhost
 ```
 
 - enable server.https option in **vite.config.js**
-- change VITE_SERVER to http**s** in your **functions.php**
+- change VITE_SERVER to http**s** in your **inc/inc.vite.php**
 
 
 

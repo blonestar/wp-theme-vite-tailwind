@@ -13,6 +13,9 @@ if ( ! defined( 'ABSPATH' ) )
 // dist subfolder - defined in vite.config.json
 define('DIST_DEF', 'dist');
 
+// define the main.js file to be referenced in manifest.json
+define('DIST_MAIN_JS', 'main.js');
+
 // defining some base urls and paths
 define('DIST_URI', get_template_directory_uri() . '/' . DIST_DEF);
 define('DIST_PATH', get_template_directory() . '/' . DIST_DEF);
@@ -49,15 +52,25 @@ add_action( 'wp_enqueue_scripts', function() {
             
             // get first key, by default is 'main.js' but it can change
             $manifest_key = array_keys($manifest);
-            if (isset($manifest_key[0])) {
-                
+            $mainjs_index = -1;
+            $i=0;
+
+            foreach($manifest_key as $k) {
+                if($k == DIST_MAIN_JS) {
+                    $mainjs_index = $i;
+                    break;
+                }
+                $i++;
+            }
+
+            if ($mainjs_index > -1) {
                 // enqueue CSS files
-                foreach(@$manifest[$manifest_key[0]]['css'] as $css_file) {
+                foreach(@$manifest[$manifest_key[$mainjs_index]]['css'] as $css_file) {
                     wp_enqueue_style( 'main', DIST_URI . '/' . $css_file );
                 }
                 
                 // enqueue main JS file
-                $js_file = @$manifest[$manifest_key[0]]['file'];
+                $js_file = @$manifest[$manifest_key[$mainjs_index]]['file'];
                 if ( ! empty($js_file)) {
                     wp_enqueue_script( 'main', DIST_URI . '/' . $js_file, JS_DEPENDENCY, '', JS_LOAD_IN_FOOTER );
                 }
